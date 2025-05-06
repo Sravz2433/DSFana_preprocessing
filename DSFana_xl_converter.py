@@ -5,7 +5,7 @@ from io import StringIO, BytesIO
 from openpyxl.styles import PatternFill, Alignment, Font
 from openpyxl import Workbook
 
-st.title("📊 TXT Merger and Averager from ZIP")
+st.title("📊  DSFANA Preprocessing - TXT Merger and Averager from ZIP")
 
 uploaded_zip = st.file_uploader("Upload ZIP file containing .txt files", type=["zip"])
 
