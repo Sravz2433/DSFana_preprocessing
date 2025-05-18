@@ -11,7 +11,7 @@ st.markdown("Process ZIP files of DNA structure data and generate formatted Exce
 
 # File upload section
 uploaded_zip = st.file_uploader("Upload ZIP file with data files", type="zip")
-uploaded_seq = st.file_uploader("Upload sequence.txt file", type="txt")
+uploaded_seq = st.file_uploader("Upload sequence.fasta file", type="fasta")
 
 if uploaded_zip and uploaded_seq:
     if st.button("Process Files"):
