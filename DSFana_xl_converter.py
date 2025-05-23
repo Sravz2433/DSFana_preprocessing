@@ -257,12 +257,12 @@ class DNAProcessor:
 def main():
     """Main Streamlit application"""
     st.set_page_config(
-        page_title="DNA Structure Data Processor",
+        page_title="DSFAna Parameter Data Processor",
         page_icon="🧬",
         layout="wide"
     )
     
-    st.title("🧬 DNA Structure Data Processor")
+    st.title("🧬 DSFAna Parameter Data Processor")
     st.markdown("Process ZIP files of DNA structure data and generate formatted Excel reports")
     
     # Initialize processor
